@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.plm{
+    width: 100%;
+}
+.bottom-left {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    color: white;  
+}
+ #one{
+    width: 350px;
+    height: 40px;
+ }
+ #two{
+    width: 700px;
+    height: 40px;
+ }
+ #area{
+    width: 100%;
+    
+ }
+ #conn{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+ }
+ .frm{
+    margin-left: 500px;
+    margin-top: 60px;
+    font-weight: bolder;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 992px) {
+    body{
+        background-image: url(./images/palm.jpg);
+    }
+    .plm{
+        display: none;
+    }
+
+    .mm{
+        margin-top: 30px;
+        
+    }
+    #one{
+        width: 195px;
+        height: 40px;
+       
+     }
+     #two{
+        width: 395px;
+        height: 40px;
+        gap: 40px;
+     }
+     #area{
+        width: 1%;
+        height: 30px;
+        
+     }
+     #conn{
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+     }
+     .frm{
+        margin-left: 30px;
+        font-weight: bolder;
+        background-color: burlywood;
+        width: 100%;
+        height: 750px;
+        margin-top: 0px;
+        
+     }
+     .ja{
+        background-color: burlywood;
+     }
+
+
+
+
+
+ }

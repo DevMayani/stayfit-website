@@ -1,0 +1,645 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 5500px;
+    background-color: burlywood;
+}
+#brnd{
+    font-style: italic;
+    text-decoration: none;
+    /* background-color: red; */
+    width: 30%;
+    margin-left: 40px;
+    text-align: center;
+}
+.inn{
+    font-size: 50px;  
+}
+#kkk{
+    width: 80%; 
+    height: 50px;
+    margin-right: 150px;
+    font-weight: bold;
+}
+#mmm:hover{ 
+    color: green; }
+#mmm{
+   margin-left: 100px;
+   font-size: 20px;
+   cursor: pointer;
+}
+#sec{
+    position: relative;
+    text-align: center;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 100px;
+    left: 960px;
+    color: white;
+    
+  }
+#sec-cont{
+    width: 100%;
+}
+img{
+    width: 1500px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-style: italic;
+}
+.ist{
+    width: 800px;
+    height:612px;
+}
+.two{
+    width: 612px;
+    height: 612px;
+}
+.yoga{
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.zig-zag-line {
+    border: none;
+    width: 10%;
+    margin-left: 50px;
+    height: 20px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #E5E5E5 20%, transparent 25%) -20px 0,
+    linear-gradient(225deg, #E5E5E5 25%, transparent 20%) -20px 0,
+    linear-gradient(315deg, #E5E5E5 25%, transparent 20%),
+    linear-gradient(45deg, #E5E5E5 25%, transparent 20%);
+    background-size: 30px 30px;
+    background-color: #1A85FD;
+}
+.care{
+    margin-top: 60px;
+    margin-left: 250px;
+}
+#read{
+    margin-left: 300px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.fourth{
+    width: 70%;
+    background-color: white;
+    height: 600px;
+    margin-left: 250px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.show{
+    background-color: grey;
+    margin-top: 40px;
+}
+.bud{
+    width: 300px;
+    height: 300px;
+}
+.name{
+    width: 60%;
+    line-height: 40px;
+    margin-top: 130px;
+    color: black;
+}
+#readi{
+    margin-left: 750px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.inm{
+    font-size: 50px; 
+    color: antiquewhite; 
+    font-family: cursive;
+   
+}
+.txt{
+    margin-left: 650px;
+    margin-top: 110px;
+}
+.with{
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 50px;
+    color: black;
+    font-size: x-large;
+    letter-spacing: 15px;
+   
+}
+.come{
+    margin-top: 50px;
+    margin-left: 500px;
+
+}
+.wrd{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+.on{
+    text-align: center;
+}
+#want{
+    margin-top: 30px;
+    margin-left: 450px;
+    font-weight: bold;
+}
+.cap{
+    margin-left: 300px;
+    font-style:italic;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.sixth{
+    width: 70%;
+    background-color: white;
+    height: 900px;
+    margin-left: 250px;
+    margin-top: 200px;
+
+}
+.last{
+   width: 1100px;
+   height: 600px;
+   
+}
+.jjj{
+    margin-left: -45px;
+}
+.mind{
+    margin-top: 50px;
+    margin-left: 980px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.life{
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 450px;
+    cursor: pointer;
+}
+#readin{
+    margin-left: 500px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.resp{
+    display: none;
+}
+.nn{
+    display: none;
+}
+.lo{
+    margin-top: 80px;
+}
+.ins{
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+}
+.pic{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:90px;
+    gap: -20px;
+}
+.con{
+    width: 400px;
+    height: 500px;
+}
+#icon{
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    width: 20px;
+
+}
+.follow{
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 150px;
+    margin-left: 670px;
+   
+}
+.la{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 550px;
+}
+.me{
+    color: black;
+    
+}
+#joj{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+#fb{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+.hhh{
+    width: 28%;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 470px;
+    cursor: pointer;
+}
+.fit{
+    text-decoration: underline;
+}
+.cop{
+    margin-left: 20px;
+}
+.qqq{
+    display: none;
+}
+.oll{
+    margin-top: 120px;
+}
+.cont{
+    background-color: red;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .main{
+        background-color: rgb(239, 229, 229);
+        height: 5600px;
+        width: 100%;
+    }
+    #brnd{
+        font-style: italic;
+        text-decoration: none;
+        /* background-color: red; */
+        width: 50%;
+        margin-left: 40px;
+        text-align: center;
+    }
+    .inn{
+        font-size: 50px;  
+    }
+    #pip{
+        font-size: 30px;  
+    }
+    #lll:hover{
+       background-color: burlywood;
+       
+    }
+    #kkk{
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        /* margin-left: 200px; */
+    }
+    #mmm{
+      width: 150px;
+      text-align: center;
+      /* background-color: red; */
+      margin-left: 0px;
+    }
+   
+    #jjj{
+        width: 100%;
+    }
+    img{
+        width: 482.5px;
+        height: 500px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #sec{
+        position: relative;
+        text-align: center;
+    }
+    .bottom-left {
+        position: absolute;
+        bottom: 18px;
+        left: 76px;
+        color: burlywood;
+        font-style: italic;
+      }
+      .line{
+        background-color: grey;
+        margin-top: 150px;
+    }
+    .ist{
+        width: 400.5px;
+        height: 500px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .two{
+        display: none;
+    }
+    .zig-zag-line {
+        border: none;
+        width:35%;
+        margin-left: 50px;
+        height: 20px;
+        margin-top: 20px;
+        background: linear-gradient(135deg, #E5E5E5 20%, transparent 25%) -20px 0,
+        linear-gradient(225deg, #E5E5E5 25%, transparent 20%) -20px 0,
+        linear-gradient(315deg, #E5E5E5 25%, transparent 20%),
+        linear-gradient(45deg, #E5E5E5 25%, transparent 20%);
+        background-size: 30px 10px;
+        background-color: #1A85FD;
+    }
+    .care{
+        margin-top: 60px;
+        margin-left: 150px;
+    }
+    #read{
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+    .fourth{
+        width: 400.5px;
+        height: 100px;
+        margin-top: 0px;
+        margin-left: 0px;
+        display: block;
+    }
+    .bud{
+        width: 400.5px;
+        height: 500px;
+        margin: 20px;
+        margin-left: 60px;
+       
+       
+    }
+    .name{
+        width: 90%;
+        line-height: 30px;
+        height: 500px;
+        margin-top: 10px;
+        margin-left: 80px;
+        color: black;
+       
+    }
+    #readi{
+        margin-left: 150px;
+        margin-top: 750px;
+    }
+    .inm{
+        font-size: 50px; 
+        color: black; 
+        font-family: cursive;
+       
+    }
+    .txt{
+        margin-left: 100px;
+        margin-top: 70px;
+    }
+    .with{
+        font-family: cursive;
+        font-weight: bold;
+        margin-left: 50px;
+        color: black;
+        font-size: x-large;
+        letter-spacing: 10px;
+       
+    }
+    .come{
+        margin-top: 40px;
+        margin-left: 0px;
+    
+    }
+    .wrd{
+        background-color: pink;
+        width: 85%;
+        height: 35   0px;
+        margin-left: 40px;
+        margin-top: 50px;
+        font-weight: bold;
+       
+    }
+    .on{
+        text-align: left;
+        line-height: 30px;
+    }
+    #want{
+        margin-top: 20px;
+        margin-left: 130px;
+        font-weight: bold;
+       
+    }
+    .cap{
+        margin-left: 10px;
+        font-style:italic;
+        font-weight: bolder;
+        width: 90%;
+        font-size: large;
+        cursor: pointer;
+    }
+    .sixth{
+        display: none;
+        
+    
+    }
+    .last{
+        display: none;
+       
+    }
+    .re{
+       
+        height: 850px;
+    }
+    .resp{
+        display: block;
+        width: 400.5px;
+        height: 500px;
+        margin: 20px;
+        margin-left: 45px;
+        margin-top: 100px;
+    }
+    .nn{
+        display: block;
+        margin-top: 100px;
+    }
+    .mind{
+        margin-top: 40px;
+        margin-left: 350px;
+        font-style: italic;
+        font-weight: bolder;
+    }
+    .life{
+        font-weight: bolder;
+        margin-top: 50px;
+        margin-left: 200px;
+        cursor: pointer;
+    }
+    #readin{
+        margin-left: 220px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .lo{
+        margin-top: 60px;
+    }
+    .ins{
+        margin-top: 40px;
+        font-weight: bolder;
+        font-size: xx-large;
+        font-style: italic;
+        text-align: left;
+        margin-left: 0px;
+    }.pic{
+        width: 60%;
+        height: 600px;
+        display: block;
+        margin-right: 30px;
+    }
+    .con{
+        width: 300.5px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    #icon{
+        color: black;
+        font-size: large;
+        font-weight: bolder;
+        width: 20px;
+        margin-top: 247px;
+        margin-left: 130px;
+    }
+    .follow{
+        color: black;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 250px;
+        margin-right: 150px;
+
+    }
+    .qqq{
+        display: block;
+        margin-top: 340px;
+    }
+    .la{
+    width: 40%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 130px;
+    gap: 60px;
+    margin-top: 30px;
+        
+    }
+    .me{
+        color: black;
+        width: 120px;
+        height: 30px;
+        text-decoration: underline;
+    }
+    #joj{
+        color: black;
+        font-size: larger;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    #fb{
+        color: black;
+        font-size: larger;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .hhh{
+        width: 90%;
+        height: 30px;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        margin-left: 20px;
+        cursor: pointer;
+        font-weight: lighter;
+        margin-top: 20px;
+       
+
+    }
+    .fit{
+        text-decoration: underline;
+    }
+    .numb{
+        font-weight: bolder;
+    }
+    .cop{
+        margin-left: 20px;
+        margin-bottom: 150px;
+    }
+    .cont{
+        display: none;
+    }
+    
+    
+ 
+    
+    
+    
+   
+   
+    
+    
+    
+    
+
+
+    
+    
+   
+    
+    
+
+
+}
